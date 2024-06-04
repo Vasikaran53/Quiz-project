@@ -1,0 +1,146 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: larger;
+  font-size: medium;
+}
+.page1 {
+  background-color: #008080;
+  height: 770px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+#form {
+  background-color: whitesmoke;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  gap: 10px;
+  text-indent: 2px;
+  color: #696969;
+  box-shadow: 2px 2px 8px skyblue;
+}
+#form input {
+  width: 280px;
+  height: 30px;
+  text-indent: 5px;
+  border-radius: 8px;
+  border: 1px solid black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#form label {
+  font-size: smaller;
+}
+
+#form input:hover {
+  box-shadow: 2px 2px 8px skyblue;
+}
+#form button {
+  width: fit-content;
+  position: relative;
+  left: 110px;
+  margin-top: 40px;
+  background-color: #455a64;
+  width: 80px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: whitesmoke;
+}
+#form button:hover {
+  box-shadow: 2px 2px 12px #455a64;
+  border: 1px solid black;
+}
+
+#timer {
+  font-size: larger;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 5px;
+  color: #c0392b;
+  margin-top: 5px;
+  background-color: #edbb99;
+}
+.mains {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #ccccff;
+  height: 950px;
+}
+.question {
+  background-color: whitesmoke;
+  width: 700px;
+  border-radius: 5px;
+  text-indent: 30px;
+  height: 150px;
+  margin-top: 10px;
+}
+.question h3 {
+  color: #34495e;
+}
+
+.question button {
+  background-color: #d6eaf8;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  left: 10px;
+  width: 80px;
+  height: 25px;
+  transition: all 0.3s;
+  margin-left: 20px;
+  color: #1b4f72;
+  font-size: small;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.question button:hover {
+  transform: scale(1.2);
+}
+#R {
+  width: 80px;
+  height: 30px;
+  background-color: #212f3c;
+  font-size: medium;
+  font-weight: larger;
+  border-radius: 5px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: all 0.4s;
+}
+#R:hover {
+  transform: scale(1.1);
+}
+.p3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7e9;
+  height: 770px;
+}
+.page3 {
+  margin: 10px;
+  text-align: center;
+  width: 250px;
+  background-color: #d6eaf8;
+  color: #e59866;
+  border-radius: 5px;
+  height: 300px;
+  box-shadow: 4px 4px 20px #aed6f1;
+}
+.page3 h3 {
+  background-color: white;
+  color: #1b4f72;
+}
+#p2 {
+  color: black;
+}

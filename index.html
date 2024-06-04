@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page1" id="page11">
+      <div id="form">
+        <h2 style="color: #37474f; text-align: center; font-weight: larger">
+          Register form
+        </h2>
+        <label for="">STUDENT NAME:</label>
+        <input type="text" placeholder="Enter your name" required />
+        <label for="">PASSWORD: </label>
+        <input type="password" placeholder="Enter your password" required />
+        <button type="submit" onclick="submit()">SUBMIT</button>
+      </div>
+    </div>
+    <div style="display: none" id="main">
+      <div class="mains">
+        <div id="timer"><span>Total time:</span> 02:00</div>
+
+        <div class="question" id="q1">
+          <h3>Question 1:</h3>
+          <p>
+            Which programming language is primarily used for web development?
+          </p>
+          <button type="button" onclick="wrong()">Java</button>
+          <button type="button" onclick="wrong()">python</button>
+          <button type="button" onclick="correct()">Ruby</button>
+          <button type="button" onclick="wrong()">Javascript</button>
+        </div>
+        <div class="question" id="q2">
+          <h3>Question 2:</h3>
+          <p>
+            In which programming language is memory management done
+            automatically?
+          </p>
+          <button type="button" onclick="wrong2()">C++</button>
+          <button type="button" onclick="correct2()">Java</button>
+          <button type="button" onclick="wrong2()">Python</button>
+          <button type="button" onclick="wrong2()">Assembly</button>
+        </div>
+        <div class="question" id="q3">
+          <h3>Question 3:</h3>
+          <p>
+            Which language is often used for statistical analysis and data
+            visualization?
+          </p>
+          <button type="button" onclick="correct3()">R</button>
+          <button type="button" onclick="wrong3()">SWift</button>
+          <button type="button" onclick="wrong3()">c#</button>
+          <button type="button" onclick="wrong3()">Go</button>
+        </div>
+        <div class="question" id="q4">
+          <h3>Question 4:</h3>
+          <p>
+            What programming language is commonly used for developing mobile
+            applications on iOS devices?
+          </p>
+          <button type="button" onclick="wrong4()">Kotlin</button>
+          <button type="button" onclick="wrong4()">Objective</button>
+          <button type="button" onclick="wrong4()">PHP</button>
+          <button type="button" onclick="correct4()">Rust</button>
+        </div>
+        <div class="question" id="q5">
+          <h3>Question 5:</h3>
+          <p>
+            What programming language is frequently used for machine learning
+            and data analysis?
+          </p>
+          <button type="button" onclick="correct5()">JavaScript</button>
+          <button type="button" onclick="wrong5()">C++</button>
+          <button type="button" onclick="wrong5()">MATLAB</button>
+          <button type="button" onclick="wrong5()">Python</button>
+        </div>
+        <button id="R" type="submit" onclick="re()">Result</button>
+      </div>
+    </div>
+
+    <div class="p3">
+      <div class="page3" id="p3" style="display: none">
+        <h3 id="h3">Result:</h3>
+        <p id="p2">pass / fail</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+  </body>
+</html>
